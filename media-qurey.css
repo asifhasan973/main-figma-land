@@ -3,7 +3,7 @@
         height: min-content;
     }
     header {
-        clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0% 95%);
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0% 90%);
     }
     .figma-navbar .nav-item:hover a::after {
         transform: scale(0, 0);
