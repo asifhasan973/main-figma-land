@@ -1,0 +1,188 @@
+/* Header Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #252B42;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #132024d8, #118ce488), url(./images/header-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 70%;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0% 85%);
+}
+
+.figma-navbar a {
+    margin-left: 30px;
+    height: 3rem;
+    position: relative;
+}
+
+.figma-navbar a::after {
+    content: "";
+    background-color: white;
+    width: 80%;
+    height: 2.5%;
+    position: absolute;
+    left: 10%;
+    bottom: 25%;
+    transform: scale(0, 2);
+    transition: 0.8s;
+}
+
+.figma-navbar .nav-item:hover a::after {
+    transform: scale(1, 2);
+    transition: 0.8s;
+}
+
+.figma-navbar a:focus {
+    color: pink !important;
+}
+
+
+/* Welcome message */
+
+.welcome-message-child {
+    width: 700px;
+}
+
+.welcome-message h1 {
+    color: white;
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+
+.welcome-message p {
+    color: white;
+    font-size: 2rem;
+}
+
+.figma-btn {
+    background-color: #2091F9;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.figma-btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+/* header style finished */
+
+.features-section h1 {
+    margin-top: 20%;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.features-section h1 small,
+.features-section p small {
+    font-size: 20px;
+}
+
+.features-section p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.features-section-child {
+    width: 600px;
+}
+
+.features-card {
+    color: white;
+}
+
+.features-card img {
+    width: 15%;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.fastest-section {
+    margin-top: 80px;
+}
+
+.newsletter {
+    margin-top: 150px;
+}
+
+.newsletter h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.newsletter h1 small,
+.newsletter p small {
+    font-size: 20px;
+}
+
+.newsletter p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+/* Newsletter Section Done */
+
+.pricing-div {
+    margin-top: 100px;
+}
+
+.pricing-div p {
+    font-size: 20px;
+}
+
+.popular-price {
+    background-color: #2091F9;
+}
+
+.popular-price button {
+    color: #2091F9;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+.price-card-body {
+    padding: 20px 60px 20px 60px;
+}
+
+.price-card-body-mother {
+    border-radius: 26px !important;
+}
+
+.price-card-body p,
+ul {
+    font-size: 20px;
+    list-style: none;
+}
+
+.price h1 {
+    font-size: 100px;
+    padding-left: 30px;
+}
+
+.price-duration {
+    font-size: 18px;
+    padding-top: 35px;
+    padding-left: 10px;
+    text-align: start;
+}
