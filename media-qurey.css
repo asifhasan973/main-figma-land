@@ -29,6 +29,10 @@
     .row {
         --bs-gutter-x: 0rem;
     }
+    /* Price Section */
+    .price-card-body {
+        padding: 20px 10px 20px 10px;
+    }
 }
 
 @media screen and (max-width: 281px) {

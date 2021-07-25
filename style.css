@@ -144,6 +144,10 @@ input:focus {
     margin-top: 100px;
 }
 
+.pricing-div h1 {
+    font-size: 3.5em;
+}
+
 .pricing-div p {
     font-size: 20px;
 }
@@ -162,7 +166,7 @@ input:focus {
 }
 
 .price-card-body {
-    padding: 20px 60px 20px 60px;
+    padding: 20px 40px 20px 40px;
 }
 
 .price-card-body-mother {
@@ -176,13 +180,43 @@ ul {
 }
 
 .price h1 {
-    font-size: 100px;
+    color: #2091F9;
+    font-size: 80px;
     padding-left: 30px;
 }
 
 .price-duration {
+    color: #2091F9;
     font-size: 18px;
-    padding-top: 35px;
+    padding-top: 20px;
     padding-left: 10px;
     text-align: start;
+}
+
+.jumping-hover:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.contact-section {
+    margin-top: 100px;
+}
+
+.contact-head h1 {
+    font-size: 3.5rem;
+}
+
+.contact-head p {
+    font-size: 22px;
+}
+
+.contact-form {
+    border-radius: 15px;
+}
+
+.fa-map-marker-alt,
+.fa-envelope,
+.fa-phone-square {
+    font-size: 25px;
+    color: #2091F9;
 }
